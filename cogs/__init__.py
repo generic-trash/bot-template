@@ -1,3 +1,3 @@
-
+from .basecog import BaseCog
 def setup(bot):
-    pass
+    bot.add_cog(BaseCog(bot))
